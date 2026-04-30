@@ -35,6 +35,8 @@ const Index = () => {
     ensure('meta[property="og:title"]', { property: "og:title", content: "SkyExch — India's #1 Cricket & Casino ID" });
     ensure('meta[property="og:description"]', { property: "og:description", content: "Instant WhatsApp ID for cricket betting & casino in India. Play in ₹." });
     ensure('meta[property="og:type"]', { property: "og:type", content: "website" });
+    ensure('meta[property="og:image"]', { property: "og:image", content: window.location.origin + "/og-image.jpg" });
+    ensure('meta[name="twitter:image"]', { name: "twitter:image", content: window.location.origin + "/og-image.jpg" });
   }, []);
 
   return (
