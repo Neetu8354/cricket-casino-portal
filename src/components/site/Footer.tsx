@@ -6,8 +6,8 @@ export const Footer = () => (
     <div className="container py-12 grid md:grid-cols-4 gap-8">
       <div>
         <div className="flex items-center gap-2 mb-4">
-          <img src={logo} alt="SkyExch" className="h-10 w-10" width={40} height={40} />
-          <span className="text-xl font-extrabold text-gradient-gold">SKYEXCH</span>
+          <img src={logo} alt="SkyExchange" className="h-10 w-10" width={40} height={40} />
+          <span className="text-xl font-extrabold text-gradient-gold">SKYEXCHANGE</span>
         </div>
         <p className="text-sm text-muted-foreground">India's most trusted online cricket & casino ID provider. Play in ₹, win in ₹.</p>
       </div>
@@ -30,7 +30,7 @@ export const Footer = () => (
     </div>
     <div className="border-t border-border">
       <div className="container py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-        <p>© {new Date().getFullYear()} SkyExch. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} SkyExchange. All rights reserved.</p>
         <p>18+ only · Play responsibly · Gambling can be addictive</p>
       </div>
     </div>

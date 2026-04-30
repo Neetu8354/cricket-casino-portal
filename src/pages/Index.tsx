@@ -21,7 +21,7 @@ import { useEffect } from "react";
 
 const Index = () => {
   useEffect(() => {
-    document.title = "SkyExch — India's #1 Online Cricket & Casino ID | Play in ₹";
+    document.title = "SkyExchange — India's #1 Online Cricket & Casino ID | Play in ₹";
     const ensure = (sel: string, attrs: Record<string, string>) => {
       let el = document.head.querySelector(sel) as HTMLElement | null;
       if (!el) {
@@ -30,9 +30,9 @@ const Index = () => {
       }
       Object.entries(attrs).forEach(([k, v]) => el!.setAttribute(k, v));
     };
-    ensure('meta[name="description"]', { name: "description", content: "Get your SkyExch online cricket ID in seconds on WhatsApp. Bet on IPL, T20, ODI, Andar Bahar, Teen Patti, Aviator & 1000+ casino games. INR deposits via UPI, instant withdrawals, 24×7 support." });
+    ensure('meta[name="description"]', { name: "description", content: "Get your SkyExchange online cricket ID in seconds on WhatsApp. Bet on IPL, T20, ODI, Andar Bahar, Teen Patti, Aviator & 1000+ casino games. INR deposits via UPI, instant withdrawals, 24×7 support." });
     ensure('link[rel="canonical"]', { rel: "canonical", href: window.location.origin });
-    ensure('meta[property="og:title"]', { property: "og:title", content: "SkyExch — India's #1 Cricket & Casino ID" });
+    ensure('meta[property="og:title"]', { property: "og:title", content: "SkyExchange — India's #1 Cricket & Casino ID" });
     ensure('meta[property="og:description"]', { property: "og:description", content: "Instant WhatsApp ID for cricket betting & casino in India. Play in ₹." });
     ensure('meta[property="og:type"]', { property: "og:type", content: "website" });
     ensure('meta[property="og:image"]', { property: "og:image", content: window.location.origin + "/og-image.jpg" });

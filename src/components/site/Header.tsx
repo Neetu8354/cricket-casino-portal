@@ -17,9 +17,9 @@ export const Header = () => {
   return (
     <header className="sticky top-0 z-50 backdrop-blur-md bg-background/85 border-b border-border">
       <div className="container flex items-center justify-between h-16 md:h-20">
-        <a href="#home" className="flex items-center gap-2" aria-label="SkyExch home">
-          <img src={logo} alt="SkyExch logo" width={42} height={42} className="h-10 w-10 object-contain" />
-          <span className="text-xl md:text-2xl font-extrabold tracking-tight text-gradient-gold">SKYEXCH</span>
+        <a href="#home" className="flex items-center gap-2" aria-label="SkyExchange home">
+          <img src={logo} alt="SkyExchange logo" width={42} height={42} className="h-10 w-10 object-contain" />
+          <span className="text-xl md:text-2xl font-extrabold tracking-tight text-gradient-gold">SKYEXCHANGE</span>
         </a>
 
         <nav className="hidden lg:flex items-center gap-8">
