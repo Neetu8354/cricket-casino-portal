@@ -1,13 +1,19 @@
 import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
 import { Marquee } from "@/components/site/Marquee";
-import { PromoSlider } from "@/components/site/PromoSlider";
+import { About } from "@/components/site/About";
+import { WhyChoose } from "@/components/site/WhyChoose";
+import { Steps } from "@/components/site/Steps";
 import { GameSections } from "@/components/site/GameSections";
 import { Features } from "@/components/site/Features";
-import { Steps } from "@/components/site/Steps";
+import { MultiDevice } from "@/components/site/MultiDevice";
+import { Gameplay } from "@/components/site/Gameplay";
+import { Payments } from "@/components/site/Payments";
+import { PromoSlider } from "@/components/site/PromoSlider";
 import { Stats } from "@/components/site/Stats";
 import { Testimonials } from "@/components/site/Testimonials";
 import { FAQ } from "@/components/site/FAQ";
+import { Responsible } from "@/components/site/Responsible";
 import { CTA } from "@/components/site/CTA";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
@@ -29,23 +35,6 @@ const Index = () => {
     ensure('meta[property="og:title"]', { property: "og:title", content: "SkyExch — India's #1 Cricket & Casino ID" });
     ensure('meta[property="og:description"]', { property: "og:description", content: "Instant WhatsApp ID for cricket betting & casino in India. Play in ₹." });
     ensure('meta[property="og:type"]', { property: "og:type", content: "website" });
-
-    // JSON-LD
-    let ld = document.getElementById("ld-json");
-    if (!ld) {
-      ld = document.createElement("script");
-      ld.id = "ld-json";
-      (ld as HTMLScriptElement).type = "application/ld+json";
-      document.head.appendChild(ld);
-    }
-    ld.textContent = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      name: "SkyExch",
-      url: window.location.origin,
-      sameAs: ["https://wa.link/reddyanna_"],
-      description: "India's trusted online cricket & casino ID provider with WhatsApp instant ID and INR payments.",
-    });
   }, []);
 
   return (
@@ -53,13 +42,19 @@ const Index = () => {
       <Header />
       <Hero />
       <Marquee />
-      <PromoSlider />
-      <GameSections />
-      <Stats />
-      <Features />
+      <About />
+      <WhyChoose />
       <Steps />
+      <GameSections />
+      <Features />
+      <MultiDevice />
+      <Gameplay />
+      <Payments />
+      <PromoSlider />
+      <Stats />
       <Testimonials />
       <FAQ />
+      <Responsible />
       <CTA />
       <Footer />
       <FloatingWhatsApp />
