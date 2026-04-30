@@ -14,7 +14,7 @@ export const Footer = () => (
       {[
         { t: "Sports", l: ["Cricket", "IPL 2026", "T20 World Cup", "ODI"] },
         { t: "Casino", l: ["Live Roulette", "Andar Bahar", "Teen Patti", "Aviator"] },
-        { t: "Help", l: ["WhatsApp Support", "Demo ID", "Deposit Guide", "Withdrawal"] },
+        { t: "Help", l: ["WhatsApp Support", "Get Your ID", "Deposit Guide", "Withdrawal"] },
       ].map((s) => (
         <div key={s.t}>
           <h4 className="font-bold mb-3">{s.t}</h4>
