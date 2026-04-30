@@ -1,7 +1,7 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const FAQS = [
-  { q: "How do I get my SkyExch ID?", a: "Just click any WhatsApp button on the site. Our chatbot will create your ID in under a minute." },
+  { q: "How do I get my SkyExchange ID?", a: "Just click any WhatsApp button on the site. Our chatbot will create your ID in under a minute." },
   { q: "Is it safe to deposit in INR?", a: "Yes. We support UPI, PhonePe, GPay, Paytm and Net Banking with bank-grade encryption." },
   { q: "Which cricket leagues can I bet on?", a: "IPL, T20 World Cup, ODI, Test cricket, BBL, PSL, CPL and many more — all with live odds." },
   { q: "What casino games are available?", a: "Live Roulette, Andar Bahar, Teen Patti, Dragon Tiger, Aviator, Slots, Lucky 7 and 1000+ titles." },

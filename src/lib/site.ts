@@ -1,2 +1,2 @@
 export const WHATSAPP_URL = "https://wa.link/reddyanna_";
-export const BRAND = "SkyExch";
+export const BRAND = "SkyExchange";

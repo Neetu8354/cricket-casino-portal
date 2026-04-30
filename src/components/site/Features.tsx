@@ -14,7 +14,7 @@ export const Features = () => (
   <section className="py-16 bg-secondary/40 border-y border-border">
     <div className="container">
       <div className="text-center mb-12">
-        <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-2">Why SkyExch</div>
+        <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-2">Why SkyExchange</div>
         <h2 className="text-3xl md:text-4xl font-extrabold">
           Built for <span className="text-gradient-gold">Indian Players</span>
         </h2>

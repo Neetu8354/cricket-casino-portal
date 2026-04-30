@@ -1,7 +1,7 @@
 import { LogIn, MousePointerClick, Wallet, Gamepad2, BarChart3, Banknote } from "lucide-react";
 
 const STEPS = [
-  { icon: LogIn, t: "Login with WhatsApp ID", d: "Use your SkyExch ID or one-tap WhatsApp login." },
+  { icon: LogIn, t: "Login with WhatsApp ID", d: "Use your SkyExchange ID or one-tap WhatsApp login." },
   { icon: MousePointerClick, t: "Pick a game", d: "Choose your cricket match, casino table, or tournament." },
   { icon: Wallet, t: "Deposit in ₹", d: "Add funds via UPI / PhonePe / GPay / Paytm / Net Banking." },
   { icon: Gamepad2, t: "Place your stake", d: "Choose play type and enter the stake amount you're comfortable with." },
