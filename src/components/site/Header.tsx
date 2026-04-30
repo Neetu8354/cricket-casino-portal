@@ -10,7 +10,6 @@ const NAV = [
   { label: "Casino", href: "#casino" },
   { label: "More Games", href: "#more-games" },
   { label: "Promotions", href: "#promotions" },
-  { label: "Demo ID", href: WHATSAPP_URL },
 ];
 
 export const Header = () => {

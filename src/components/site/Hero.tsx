@@ -36,7 +36,7 @@ export const Hero = () => {
               Get Your ID Now
             </WhatsAppButton>
             <WhatsAppButton size="lg" variant="outline" className="border-primary/60 text-primary hover:bg-primary/10 text-base h-12 px-8">
-              Get Demo ID Free
+              Chat on WhatsApp
             </WhatsAppButton>
           </div>
 

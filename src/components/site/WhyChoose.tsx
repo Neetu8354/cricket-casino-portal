@@ -3,7 +3,7 @@ import { ShieldCheck, Zap, Gamepad2, Wallet, Eye, Users } from "lucide-react";
 const ITEMS = [
   { icon: ShieldCheck, t: "Secure Platform", d: "Every account & transaction is fully secured with advanced encryption — your funds and data are safe." },
   { icon: Zap, t: "Instant Access", d: "Create your online ID instantly or log in in just one minute via WhatsApp." },
-  { icon: Gamepad2, t: "Variety of Games", d: "Cricket, fantasy sports, tournaments, card games — and a free demo ID to practice." },
+  { icon: Gamepad2, t: "Variety of Games", d: "Cricket, fantasy sports, tournaments and card games — all in one place." },
   { icon: Wallet, t: "Fast Withdrawals", d: "Withdraw your winnings instantly and safely, without any delay — directly to your bank in ₹." },
   { icon: Eye, t: "Fair Play Monitoring", d: "We monitor every game and tournament to ensure fair play and prevent cheating." },
   { icon: Users, t: "Trusted by Lakhs", d: "Thousands of users trust SkyExch for its dependable, fast and simple interface." },
