@@ -60,6 +60,10 @@ export const applySeo = ({
   description,
   canonical,
   image = "https://skyexchlogin.live/og-image.jpg",
+  imageWidth,
+  imageHeight,
+  imageAlt,
+  imageType,
   keywords,
   type = "website",
   jsonLd,
@@ -73,9 +77,51 @@ export const applySeo = ({
   ensureMeta('meta[property="og:type"]', { property: "og:type", content: type });
   ensureMeta('meta[property="og:url"]', { property: "og:url", content: canonical });
   ensureMeta('meta[property="og:image"]', { property: "og:image", content: image });
+  ensureMeta('meta[property="og:image:url"]', { property: "og:image:url", content: image });
+  ensureMeta('meta[property="og:image:secure_url"]', { property: "og:image:secure_url", content: image });
+  ensureMeta('meta[property="og:image:type"]', {
+    property: "og:image:type",
+    content: imageType ?? inferImageType(image),
+  });
+  ensureMeta('meta[property="og:image:alt"]', {
+    property: "og:image:alt",
+    content: imageAlt ?? title,
+  });
+  ensureMeta('meta[name="twitter:card"]', { name: "twitter:card", content: "summary_large_image" });
   ensureMeta('meta[name="twitter:title"]', { name: "twitter:title", content: title });
   ensureMeta('meta[name="twitter:description"]', { name: "twitter:description", content: description });
   ensureMeta('meta[name="twitter:image"]', { name: "twitter:image", content: image });
+  ensureMeta('meta[name="twitter:image:alt"]', {
+    name: "twitter:image:alt",
+    content: imageAlt ?? title,
+  });
+
+  // og:image dimensions — use provided values or resolve from the image itself
+  const applyDims = (w: number, h: number) => {
+    ensureMeta('meta[property="og:image:width"]', {
+      property: "og:image:width",
+      content: String(w),
+    });
+    ensureMeta('meta[property="og:image:height"]', {
+      property: "og:image:height",
+      content: String(h),
+    });
+  };
+
+  if (imageWidth && imageHeight) {
+    applyDims(imageWidth, imageHeight);
+  } else {
+    resolveImageDimensions(image).then((dims) => {
+      if (dims && dims.width > 0 && dims.height > 0) {
+        applyDims(dims.width, dims.height);
+      } else {
+        // Sensible 1200x630 fallback for social previews
+        applyDims(1200, 630);
+      }
+    });
+    // Set fallback immediately so crawlers that don't wait still get values
+    applyDims(1200, 630);
+  }
 
   // Manage page-scoped JSON-LD
   document.querySelectorAll('script[data-seo-jsonld="page"]').forEach((s) => s.remove());
