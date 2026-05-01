@@ -86,16 +86,14 @@ export const Header = () => {
         <div className="lg:hidden border-t border-border bg-background">
           <div className="container py-4 flex flex-col gap-3">
             {NAV.map((n) => (
-              <a
+              <NavLink
                 key={n.label}
                 href={n.href}
-                target={n.href.startsWith("http") ? "_blank" : undefined}
-                rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
                 className="py-2 text-foreground/90 hover:text-primary"
               >
                 {n.label}
-              </a>
+              </NavLink>
             ))}
             <WhatsAppButton className="bg-gradient-gold text-primary-foreground w-full">
               Get Your Online ID
