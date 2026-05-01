@@ -3,10 +3,48 @@ type SeoOptions = {
   description: string;
   canonical: string;
   image?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  imageAlt?: string;
+  imageType?: string;
   keywords?: string;
   type?: "website" | "article";
   jsonLd?: Record<string, unknown> | Array<Record<string, unknown>>;
 };
+
+const inferImageType = (url: string): string => {
+  const clean = url.split("?")[0].toLowerCase();
+  if (clean.endsWith(".png")) return "image/png";
+  if (clean.endsWith(".webp")) return "image/webp";
+  if (clean.endsWith(".gif")) return "image/gif";
+  if (clean.endsWith(".svg")) return "image/svg+xml";
+  return "image/jpeg";
+};
+
+// Cache resolved image dimensions across route changes
+const imageDimCache = new Map<string, { width: number; height: number }>();
+
+const resolveImageDimensions = (
+  url: string,
+): Promise<{ width: number; height: number } | null> =>
+  new Promise((resolve) => {
+    if (imageDimCache.has(url)) {
+      resolve(imageDimCache.get(url)!);
+      return;
+    }
+    if (typeof Image === "undefined") {
+      resolve(null);
+      return;
+    }
+    const img = new Image();
+    img.onload = () => {
+      const dims = { width: img.naturalWidth, height: img.naturalHeight };
+      imageDimCache.set(url, dims);
+      resolve(dims);
+    };
+    img.onerror = () => resolve(null);
+    img.src = url;
+  });
 
 const ensureMeta = (sel: string, attrs: Record<string, string>) => {
   let el = document.head.querySelector(sel) as HTMLElement | null;
