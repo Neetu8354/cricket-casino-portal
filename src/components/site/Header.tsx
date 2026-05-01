@@ -6,12 +6,12 @@ import { Menu, X } from "lucide-react";
 import { WHATSAPP_URL } from "@/lib/site";
 
 const NAV = [
-  { label: "Home", href: "#home" },
-  { label: "Cricket", href: "#cricket" },
-  { label: "Casino", href: "#casino" },
-  { label: "More Games", href: "#more-games" },
-  { label: "Promotions", href: "#promotions" },
+  { label: "Home", href: "/" },
+  { label: "Cricket", href: "/cricket" },
+  { label: "Casino", href: "/casino" },
   { label: "Blog", href: "/blog" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export const Header = () => {
