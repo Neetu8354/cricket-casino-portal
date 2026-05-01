@@ -15,7 +15,7 @@ const BlogPost = () => {
     if (!post) return;
     const url = `https://skyexchid.live/blog/${post.slug}`;
     applySeo({
-      title: `${post.title} | Skyexchlogin`,
+      title: `${post.title} | Skyexchid`,
       description: post.description,
       canonical: url,
       keywords: post.keywords,
@@ -28,10 +28,10 @@ const BlogPost = () => {
           description: post.description,
           datePublished: post.date,
           dateModified: post.date,
-          author: { "@type": "Organization", name: "Skyexchlogin" },
+          author: { "@type": "Organization", name: "Skyexchid" },
           publisher: {
             "@type": "Organization",
-            name: "Skyexchlogin",
+            name: "Skyexchid",
             logo: {
               "@type": "ImageObject",
               url: "https://skyexchid.live/favicon.png",
@@ -139,10 +139,10 @@ const BlogPost = () => {
 
         <div className="mt-12 p-6 md:p-8 rounded-2xl border border-primary/30 bg-gradient-card text-center shadow-gold">
           <h3 className="text-xl md:text-2xl font-extrabold mb-2">
-            Ready to play on <span className="text-gradient-gold">Skyexchlogin?</span>
+            Ready to play on <span className="text-gradient-gold">Skyexchid?</span>
           </h3>
           <p className="text-sm text-muted-foreground mb-5">
-            Get your free Skyexchlogin ID on WhatsApp in under 60 seconds. Play live cricket & casino in ₹.
+            Get your free Skyexchid ID on WhatsApp in under 60 seconds. Play live cricket & casino in ₹.
           </p>
           <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold">
             Get Your ID Now
@@ -151,7 +151,7 @@ const BlogPost = () => {
 
         {related.length > 0 && (
           <section className="mt-16">
-            <h2 className="text-2xl font-extrabold mb-5">Related Skyexchlogin guides</h2>
+            <h2 className="text-2xl font-extrabold mb-5">Related Skyexchid guides</h2>
             <div className="grid sm:grid-cols-2 gap-5">
               {related.map((r) => (
                 <Link
