@@ -40,13 +40,13 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: "5 min read",
     category: "Login Guide",
     excerpt:
-      "A complete walkthrough of how to login Skyexchlogin with your username — from getting your ID on WhatsApp to placing your first bet on skyexchlogin.live.",
+      "A complete walkthrough of how to login Skyexchlogin with your username — from getting your ID on WhatsApp to placing your first bet on skyexchid.live.",
     image: banner1,
-    imageAlt: "How to login skyexchlogin step by step guide banner skyexchlogin.live",
+    imageAlt: "How to login skyexchlogin step by step guide banner skyexchid.live",
     body: [
       {
         type: "p",
-        text: "If you're new to online sports gaming in India, the first hurdle is usually the login. This Skyexchlogin login guide step by step walks you through the entire flow — from requesting your username on WhatsApp to landing on the dashboard and placing your first bet on skyexchlogin.live. The whole process takes under 2 minutes.",
+        text: "If you're new to online sports gaming in India, the first hurdle is usually the login. This Skyexchlogin login guide step by step walks you through the entire flow — from requesting your username on WhatsApp to landing on the dashboard and placing your first bet on skyexchid.live. The whole process takes under 2 minutes.",
       },
       { type: "h2", text: "What you need before Sky Exchange Login" },
       {
@@ -62,10 +62,10 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         type: "ol",
         items: [
-          "Open skyexchlogin.live in any browser. The site is mobile friendly and works without any app download.",
+          "Open skyexchid.live in any browser. The site is mobile friendly and works without any app download.",
           "Tap any 'Get Your Online ID' button. You'll be redirected to our 24x7 WhatsApp support.",
           "Send a 'Hi' message. Our team replies instantly with your Skyexchlogin login username and password.",
-          "Return to skyexchlogin.live, tap 'Login', and enter the username & password we sent you.",
+          "Return to skyexchid.live, tap 'Login', and enter the username & password we sent you.",
           "You're in. Pick any cricket match or casino table, deposit in ₹ via UPI, and place your bet.",
         ],
       },
@@ -82,7 +82,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         type: "quote",
-        text: "Pro tip: Save skyexchlogin.live as a bookmark on your phone's home screen — login becomes a one-tap action.",
+        text: "Pro tip: Save skyexchid.live as a bookmark on your phone's home screen — login becomes a one-tap action.",
       },
       { type: "h2", text: "After login: place your first bet" },
       {
@@ -104,7 +104,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "From reading session odds to managing your bankroll, these live cricket betting tips online will help beginners place smarter bets on IPL and T20 matches in 2026.",
     image: banner2,
-    imageAlt: "Best betting platform in india. Join now and play fast skyexchlogin.live",
+    imageAlt: "Best betting platform in india. Join now and play fast skyexchid.live",
     body: [
       {
         type: "p",
@@ -164,7 +164,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "A 2026 guide to picking safe online sports betting websites in India — security checks, payment safety, and a beginner-friendly explanation of how sports betting platforms work online.",
     image: banner3,
-    imageAlt: "Top online games list 2026 blog banner skyexchlogin.live",
+    imageAlt: "Top online games list 2026 blog banner skyexchid.live",
     body: [
       {
         type: "p",
@@ -205,7 +205,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "Get started with Skyexchlogin" },
       {
         type: "p",
-        text: "Ready to try it yourself? Click any WhatsApp button on skyexchlogin.live, get your free ID in 60 seconds, and play live cricket and casino games safely in ₹.",
+        text: "Ready to try it yourself? Click any WhatsApp button on skyexchid.live, get your free ID in 60 seconds, and play live cricket and casino games safely in ₹.",
       },
     ],
   },
@@ -213,20 +213,20 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "how-to-win-aviator-game-skyexchlogin",
     title: "How to Win Aviator 10x Multiplier on Skyexchlogin (2026 Strategy)",
     description:
-      "Learn how to win Aviator 10x with skyexchlogin.live. Real strategies, auto cash-out tips, and bankroll rules for the Aviator game on the Skyexchlogin online platform.",
+      "Learn how to win Aviator 10x with skyexchid.live. Real strategies, auto cash-out tips, and bankroll rules for the Aviator game on the Skyexchlogin online platform.",
     keywords:
-      "how to win aviator 10x with skyexchlogin.live, aviator game strategy, skyexchlogin online platform, sports gaming app online",
+      "how to win aviator 10x with skyexchid.live, aviator game strategy, skyexchlogin online platform, sports gaming app online",
     date: "2026-04-01",
     readTime: "6 min read",
     category: "Casino Strategy",
     excerpt:
       "Aviator looks simple — but winning 10x consistently takes discipline. Here are proven strategies, auto cash-out settings, and bankroll rules for the Aviator game on Skyexchlogin.",
     image: imgAviator,
-    imageAlt: "How to win aviator 10x with skyexchlogin.live - aviator game strategy banner",
+    imageAlt: "How to win aviator 10x with skyexchid.live - aviator game strategy banner",
     body: [
       {
         type: "p",
-        text: "Aviator is the fastest-growing crash game on the Skyexchlogin online platform. The rules are simple — a plane takes off, a multiplier rises, and you cash out before it crashes. But chasing a 10x multiplier without strategy is a fast way to lose your wallet. Here's how experienced players actually hit 10x on skyexchlogin.live.",
+        text: "Aviator is the fastest-growing crash game on the Skyexchlogin online platform. The rules are simple — a plane takes off, a multiplier rises, and you cash out before it crashes. But chasing a 10x multiplier without strategy is a fast way to lose your wallet. Here's how experienced players actually hit 10x on skyexchid.live.",
       },
       { type: "h2", text: "Understand the Aviator math first" },
       {
@@ -270,7 +270,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "Play Aviator on Skyexchlogin today" },
       {
         type: "p",
-        text: "Get your Skyexchlogin ID on WhatsApp in 60 seconds, deposit ₹100 minimum, and apply these strategies on your next Aviator session at skyexchlogin.live.",
+        text: "Get your Skyexchlogin ID on WhatsApp in 60 seconds, deposit ₹100 minimum, and apply these strategies on your next Aviator session at skyexchid.live.",
       },
     ],
   },
@@ -287,7 +287,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Both are Indian classics, but Teen Patti and Andar Bahar pay very differently. Here's a head-to-head comparison so you pick the right game on the Skyexchlogin online platform.",
     image: imgTeenpatti,
-    imageAlt: "Teen patti vs andar bahar comparison on skyexchlogin.live online sports gaming platform",
+    imageAlt: "Teen patti vs andar bahar comparison on skyexchid.live online sports gaming platform",
     body: [
       {
         type: "p",
@@ -358,7 +358,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Everything you need for IPL 2026 — popular markets explained, beginner-friendly bet types, and why Skyexchlogin is the best online sports betting platform for new Indian players.",
     image: imgCricket,
-    imageAlt: "IPL 2026 betting guide on skyexchlogin.live - best online sports betting platform india",
+    imageAlt: "IPL 2026 betting guide on skyexchid.live - best online sports betting platform india",
     body: [
       {
         type: "p",
@@ -414,7 +414,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "Get your IPL 2026 ID now" },
       {
         type: "p",
-        text: "Don't miss a match. Click any WhatsApp button on skyexchlogin.live, get your Skyexchlogin ID in 60 seconds, deposit in ₹, and join lakhs of Indian players betting smarter on IPL 2026.",
+        text: "Don't miss a match. Click any WhatsApp button on skyexchid.live, get your Skyexchlogin ID in 60 seconds, deposit in ₹, and join lakhs of Indian players betting smarter on IPL 2026.",
       },
     ],
   },
@@ -431,16 +431,16 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "First time joining an online sports gaming website? This 2026 walkthrough covers everything — from getting your Skyexchlogin ID on WhatsApp to placing your first bet in ₹.",
     image: imgAndar,
-    imageAlt: "How to join online sports gaming website skyexchlogin.live - beginner signup guide india",
+    imageAlt: "How to join online sports gaming website skyexchid.live - beginner signup guide india",
     body: [
       {
         type: "p",
         text: "Joining an online sports gaming platform in India used to mean long signup forms, KYC documents, email verification, and 24-hour waits. In 2026, Skyexchlogin has cut all of that. Here's exactly how to join — start to first bet — in under 3 minutes.",
       },
-      { type: "h2", text: "Step 1: Open skyexchlogin.live" },
+      { type: "h2", text: "Step 1: Open skyexchid.live" },
       {
         type: "p",
-        text: "Open any browser on your phone or laptop and go to skyexchlogin.live. The site is mobile friendly so it loads instantly even on 4G. No app install required.",
+        text: "Open any browser on your phone or laptop and go to skyexchid.live. The site is mobile friendly so it loads instantly even on 4G. No app install required.",
       },
       { type: "h2", text: "Step 2: Tap 'Get Your Online ID'" },
       {
@@ -456,7 +456,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         type: "ul",
         items: [
-          "Return to skyexchlogin.live and tap 'Login'",
+          "Return to skyexchid.live and tap 'Login'",
           "Enter the username & password from WhatsApp",
           "Go to 'Deposit' and pick UPI / PhonePe / GPay / Paytm",
           "Minimum deposit: ₹100 — funds appear instantly",
@@ -485,7 +485,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { type: "h2", text: "Ready to join?" },
       {
         type: "p",
-        text: "Click any WhatsApp button on skyexchlogin.live right now. In 60 seconds you'll have a Skyexchlogin ID and you'll be ready to place your first bet on IPL 2026, live casino, Aviator, Teen Patti, Andar Bahar and more.",
+        text: "Click any WhatsApp button on skyexchid.live right now. In 60 seconds you'll have a Skyexchlogin ID and you'll be ready to place your first bet on IPL 2026, live casino, Aviator, Teen Patti, Andar Bahar and more.",
       },
     ],
   },

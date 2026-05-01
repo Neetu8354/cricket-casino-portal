@@ -18,7 +18,7 @@ const Casino = () => {
       title: "Live Casino India 2026 | Andar Bahar, Teen Patti, Aviator | Skyexchlogin",
       description:
         "Play live casino games in India on Skyexchlogin — Andar Bahar, Teen Patti, Aviator, Roulette, Dragon Tiger and 1000+ titles. INR deposits, instant withdrawal, 24x7 support.",
-      canonical: "https://skyexchlogin.live/casino",
+      canonical: "https://skyexchid.live/casino",
       keywords:
         "live casino india, andar bahar online, teen patti, aviator game, dragon tiger, online sports gaming platform, skyexchlogin online platform, mobile friendly sports betting platforms",
       jsonLd: [
@@ -26,15 +26,15 @@ const Casino = () => {
           "@context": "https://schema.org",
           "@type": "WebPage",
           name: "Live Casino on Skyexchlogin",
-          url: "https://skyexchlogin.live/casino",
+          url: "https://skyexchid.live/casino",
           description: "1000+ live casino games on the Skyexchlogin online platform — playable in INR.",
         },
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchlogin.live/" },
-            { "@type": "ListItem", position: 2, name: "Casino", item: "https://skyexchlogin.live/casino" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchid.live/" },
+            { "@type": "ListItem", position: 2, name: "Casino", item: "https://skyexchid.live/casino" },
           ],
         },
       ],
@@ -109,7 +109,7 @@ const Casino = () => {
           {games.map((g) => (
             <div key={g.t} className="relative rounded-2xl overflow-hidden border border-border bg-gradient-card group hover:border-primary/60 transition">
               <div className="aspect-square overflow-hidden">
-                <img src={g.img} alt={`Play ${g.t} live online at skyexchlogin.live - online sports gaming platform`} loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                <img src={g.img} alt={`Play ${g.t} live online at skyexchid.live - online sports gaming platform`} loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               </div>
               {g.tag && (
                 <span className="absolute top-3 left-3 px-2 py-1 rounded-md text-[10px] font-bold bg-destructive text-destructive-foreground">
