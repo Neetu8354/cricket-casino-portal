@@ -10,7 +10,7 @@ Estimated time: **15 minutes total**.
 
 1. Go to https://search.google.com/search-console
 2. Click **Add Property** → choose **URL prefix**
-3. Enter: `https://skyexchid.live/`
+3. Enter: `https://skyexchlogin.live/`
 4. **Verify ownership** — easiest method: HTML tag
    - Google gives you a `<meta name="google-site-verification" content="..." />` tag
    - Tell Lovable: *"Add this Google verification meta to index.html: PASTE_THE_TAG"*
@@ -18,10 +18,10 @@ Estimated time: **15 minutes total**.
 5. Once verified, go to **Sitemaps** in the left menu
 6. Submit: `sitemap.xml`
 7. Go to **URL Inspection**, paste each important URL, and click **Request Indexing**:
-   - `https://skyexchid.live/`
-   - `https://skyexchid.live/cricket`
-   - `https://skyexchid.live/casino`
-   - `https://skyexchid.live/blog`
+   - `https://skyexchlogin.live/`
+   - `https://skyexchlogin.live/cricket`
+   - `https://skyexchlogin.live/casino`
+   - `https://skyexchlogin.live/blog`
    - Each blog post URL
 
 **Weekly check:** open Search Console → **Coverage** → fix any "Excluded" or "Error" pages.
@@ -33,8 +33,8 @@ Estimated time: **15 minutes total**.
 1. Go to https://www.bing.com/webmasters
 2. Sign in with a Microsoft account
 3. Click **Import from Google Search Console** (fastest) — auto-imports your verified site & sitemap
-4. Or add manually: enter `https://skyexchid.live/`, verify via meta tag (same flow as Google)
-5. Submit sitemap: `https://skyexchid.live/sitemap.xml`
+4. Or add manually: enter `https://skyexchlogin.live/`, verify via meta tag (same flow as Google)
+5. Submit sitemap: `https://skyexchlogin.live/sitemap.xml`
 6. Use **URL Submission** tool to push your top 10 URLs for instant indexing
 
 ---
