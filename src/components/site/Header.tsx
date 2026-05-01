@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import logo from "@/assets/logo.png";
 import { WhatsAppButton } from "./WhatsAppButton";
 import { Menu, X } from "lucide-react";
@@ -10,29 +11,59 @@ const NAV = [
   { label: "Casino", href: "#casino" },
   { label: "More Games", href: "#more-games" },
   { label: "Promotions", href: "#promotions" },
+  { label: "Blog", href: "/blog" },
 ];
 
 export const Header = () => {
   const [open, setOpen] = useState(false);
+  const location = useLocation();
+  const onHome = location.pathname === "/";
+  const navHref = (href: string) => {
+    if (href.startsWith("#")) return onHome ? href : `/${href}`;
+    return href;
+  };
+  const NavLink = ({
+    href,
+    children,
+    className,
+    onClick,
+  }: {
+    href: string;
+    children: React.ReactNode;
+    className?: string;
+    onClick?: () => void;
+  }) => {
+    const target = navHref(href);
+    if (target.startsWith("/") && !target.startsWith("//")) {
+      return (
+        <Link to={target} className={className} onClick={onClick}>
+          {children}
+        </Link>
+      );
+    }
+    return (
+      <a href={target} className={className} onClick={onClick}>
+        {children}
+      </a>
+    );
+  };
   return (
     <header className="sticky top-0 z-50 backdrop-blur-md bg-background/85 border-b border-border">
       <div className="container flex items-center justify-between h-16 md:h-20">
-        <a href="#home" className="flex items-center gap-2" aria-label="Skyexchlogin home - Sky Exchange Login online cricket platform">
+        <Link to="/" className="flex items-center gap-2" aria-label="Skyexchlogin home - Sky Exchange Login online cricket platform">
           <img src={logo} alt="Skyexchlogin official logo - online cricket and casino platform" width={42} height={42} className="h-10 w-10 object-contain" />
           <span className="text-xl md:text-2xl font-extrabold tracking-tight text-gradient-gold">SKYEXCHANGE</span>
-        </a>
+        </Link>
 
         <nav className="hidden lg:flex items-center gap-8">
           {NAV.map((n) => (
-            <a
+            <NavLink
               key={n.label}
               href={n.href}
-              target={n.href.startsWith("http") ? "_blank" : undefined}
-              rel="noopener noreferrer"
               className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
             >
               {n.label}
-            </a>
+            </NavLink>
           ))}
         </nav>
 
@@ -55,16 +86,14 @@ export const Header = () => {
         <div className="lg:hidden border-t border-border bg-background">
           <div className="container py-4 flex flex-col gap-3">
             {NAV.map((n) => (
-              <a
+              <NavLink
                 key={n.label}
                 href={n.href}
-                target={n.href.startsWith("http") ? "_blank" : undefined}
-                rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
                 className="py-2 text-foreground/90 hover:text-primary"
               >
                 {n.label}
-              </a>
+              </NavLink>
             ))}
             <WhatsAppButton className="bg-gradient-gold text-primary-foreground w-full">
               Get Your Online ID
