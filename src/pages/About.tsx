@@ -13,7 +13,7 @@ const About = () => {
       title: "About Skyexchlogin | India's Trusted Online Sports Gaming Platform 2026",
       description:
         "About Skyexchlogin (Sky Exchange Login) — India's leading online sports gaming platform since 2017. 10L+ players, 1000+ games, instant ₹ withdrawals, 24x7 WhatsApp support.",
-      canonical: "https://skyexchid.live/about",
+      canonical: "https://skyexchlogin.live/about",
       keywords:
         "about skyexchlogin, sky exchange login, online sports gaming platform, sports betting platform online, skyexchlogin online platform",
       jsonLd: [
@@ -21,7 +21,7 @@ const About = () => {
           "@context": "https://schema.org",
           "@type": "AboutPage",
           name: "About Skyexchlogin",
-          url: "https://skyexchid.live/about",
+          url: "https://skyexchlogin.live/about",
           description:
             "Learn about Skyexchlogin — India's trusted online cricket and casino gaming platform.",
         },
@@ -29,8 +29,8 @@ const About = () => {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchid.live/" },
-            { "@type": "ListItem", position: 2, name: "About", item: "https://skyexchid.live/about" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchlogin.live/" },
+            { "@type": "ListItem", position: 2, name: "About", item: "https://skyexchlogin.live/about" },
           ],
         },
       ],

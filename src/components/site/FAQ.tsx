@@ -4,15 +4,15 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const FAQS = [
   {
     q: "What is Skyexchlogin and how does Sky Exchange Login work?",
-    a: "Skyexchlogin (Sky Exchange Login) is India's trusted online sports gaming platform for live cricket betting and casino games. Just message us on WhatsApp, get your Skyexchlogin ID in under a minute, log in, deposit in ₹, and start playing on skyexchid.live.",
+    a: "Skyexchlogin (Sky Exchange Login) is India's trusted online sports gaming platform for live cricket betting and casino games. Just message us on WhatsApp, get your Skyexchlogin ID in under a minute, log in, deposit in ₹, and start playing on skyexchlogin.live.",
   },
   {
     q: "How to login Skyexchlogin with username — step by step guide?",
-    a: "Open skyexchid.live, click the Login button, enter the username and password we send you on WhatsApp, then tap Sign In. You'll land on the dashboard where you can pick any cricket match or casino game and place a bet instantly.",
+    a: "Open skyexchlogin.live, click the Login button, enter the username and password we send you on WhatsApp, then tap Sign In. You'll land on the dashboard where you can pick any cricket match or casino game and place a bet instantly.",
   },
   {
     q: "How do I get my Skyexchlogin online cricket ID?",
-    a: "Click any WhatsApp button on skyexchid.live. Our 24x7 support team will share your Skyexchlogin login ID and password within 1 minute — no forms, no KYC delays.",
+    a: "Click any WhatsApp button on skyexchlogin.live. Our 24x7 support team will share your Skyexchlogin login ID and password within 1 minute — no forms, no KYC delays.",
   },
   {
     q: "How to place a bet on Skyexchlogin online site?",
@@ -77,7 +77,7 @@ export const FAQ = () => {
             Skyexchlogin — Frequently Asked <span className="text-gradient-gold">Questions</span>
           </h2>
           <p className="text-sm text-muted-foreground mt-3">
-            Everything you need to know about Sky Exchange Login, online cricket betting & casino on skyexchid.live
+            Everything you need to know about Sky Exchange Login, online cricket betting & casino on skyexchlogin.live
           </p>
         </div>
         <Accordion type="single" collapsible className="space-y-3">
