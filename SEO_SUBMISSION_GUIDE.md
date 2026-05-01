@@ -1,4 +1,4 @@
-# Skyexchlogin — Search Engine Submission Guide
+# Skyexchid — Search Engine Submission Guide
 
 This is a **one-time external setup** you need to perform manually. Lovable cannot do this for you because it requires logging into your own Google & Bing accounts.
 
