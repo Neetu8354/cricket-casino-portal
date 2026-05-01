@@ -9,16 +9,16 @@ import { applySeo } from "@/lib/seo";
 const Blog = () => {
   useEffect(() => {
     applySeo({
-      title: "Skyexchlogin Blog | Cricket Tips, Login Guides & Online Betting Insights",
+      title: "Skyexchid Blog | Cricket Tips, Login Guides & Online Betting Insights",
       description:
-        "Skyexchlogin blog — live cricket betting tips online, Sky Exchange Login guides step by step, and safe online sports betting platform reviews for India 2026.",
+        "Skyexchid blog — live cricket betting tips online, Sky Exchange Login guides step by step, and safe online sports betting platform reviews for India 2026.",
       canonical: "https://skyexchid.live/blog",
       keywords:
-        "skyexchlogin blog, live cricket betting tips online, sky exchange login guide, safe online sports betting websites 2026, online sports gaming platform",
+        "skyexchid blog, live cricket betting tips online, sky exchange login guide, safe online sports betting websites 2026, online sports gaming platform",
       jsonLd: {
         "@context": "https://schema.org",
         "@type": "Blog",
-        name: "Skyexchlogin Blog",
+        name: "Skyexchid Blog",
         url: "https://skyexchid.live/blog",
         description:
           "Cricket betting tips, Sky Exchange Login guides and online sports gaming platform insights for Indian players.",
@@ -40,13 +40,13 @@ const Blog = () => {
       <section className="container py-12 md:py-16">
         <div className="max-w-3xl">
           <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-2">
-            Skyexchlogin Blog
+            Skyexchid Blog
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
             Cricket Tips, <span className="text-gradient-gold">Login Guides</span> & Betting Insights
           </h1>
           <p className="text-muted-foreground text-base md:text-lg">
-            Practical guides for Indian players — from how to login Skyexchlogin step by step to live
+            Practical guides for Indian players — from how to login Skyexchid step by step to live
             cricket betting tips online and reviews of safe online sports betting websites in 2026.
           </p>
         </div>

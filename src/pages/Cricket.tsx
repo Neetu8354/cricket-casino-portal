@@ -12,19 +12,19 @@ import hero from "@/assets/hero-cricket.jpg";
 const Cricket = () => {
   useEffect(() => {
     applySeo({
-      title: "Live Cricket Betting India 2026 | IPL, T20, ODI Markets | Skyexchlogin",
+      title: "Live Cricket Betting India 2026 | IPL, T20, ODI Markets | Skyexchid",
       description:
-        "Bet on live cricket online in India — IPL 2026, T20 World Cup, ODI & Test markets on Skyexchlogin. Lowest commission, fastest odds, instant ₹ withdrawals.",
+        "Bet on live cricket online in India — IPL 2026, T20 World Cup, ODI & Test markets on Skyexchid. Lowest commission, fastest odds, instant ₹ withdrawals.",
       canonical: "https://skyexchid.live/cricket",
       keywords:
-        "live cricket betting tips online, ipl 2026, how to bet on live cricket matches online, sports betting platform online, online sports gaming platform, skyexchlogin online platform",
+        "live cricket betting tips online, ipl 2026, how to bet on live cricket matches online, sports betting platform online, online sports gaming platform, skyexchid online platform",
       jsonLd: [
         {
           "@context": "https://schema.org",
           "@type": "WebPage",
-          name: "Live Cricket Betting on Skyexchlogin",
+          name: "Live Cricket Betting on Skyexchid",
           url: "https://skyexchid.live/cricket",
-          description: "Live cricket betting markets on Skyexchlogin — IPL, T20 World Cup, ODI, Test cricket.",
+          description: "Live cricket betting markets on Skyexchid — IPL, T20 World Cup, ODI, Test cricket.",
         },
         {
           "@context": "https://schema.org",
@@ -81,7 +81,7 @@ const Cricket = () => {
               Bet on <span className="text-gradient-gold">live cricket</span> in ₹ — IPL, T20, ODI & more
             </h1>
             <p className="text-muted-foreground text-base md:text-lg mb-7 max-w-2xl">
-              Skyexchlogin gives you the fastest live cricket odds in India, lowest commission, and instant ₹ withdrawals.
+              Skyexchid gives you the fastest live cricket odds in India, lowest commission, and instant ₹ withdrawals.
               Bet on every IPL 2026 match, T20 World Cup, ODI series and Test cricket — all from your phone.
             </p>
             <WhatsAppButton size="lg" className="bg-gradient-gold text-primary-foreground shadow-gold h-12 px-8">
@@ -110,7 +110,7 @@ const Cricket = () => {
 
       <section className="container py-14">
         <h2 className="text-3xl md:text-4xl font-extrabold mb-8">
-          Cricket markets <span className="text-gradient-gold">on Skyexchlogin</span>
+          Cricket markets <span className="text-gradient-gold">on Skyexchid</span>
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {markets.map((m) => (
@@ -150,7 +150,7 @@ const Cricket = () => {
             Ready to bet on <span className="text-gradient-gold">IPL 2026?</span>
           </h2>
           <p className="text-sm md:text-base text-muted-foreground mb-6">
-            Get your Skyexchlogin cricket ID in 60 seconds on WhatsApp. Play in ₹, win in ₹.
+            Get your Skyexchid cricket ID in 60 seconds on WhatsApp. Play in ₹, win in ₹.
           </p>
           <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold">
             Get Your Cricket ID Now

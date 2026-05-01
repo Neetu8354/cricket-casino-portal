@@ -15,19 +15,19 @@ import slots from "@/assets/sport-slots.jpg";
 const Casino = () => {
   useEffect(() => {
     applySeo({
-      title: "Live Casino India 2026 | Andar Bahar, Teen Patti, Aviator | Skyexchlogin",
+      title: "Live Casino India 2026 | Andar Bahar, Teen Patti, Aviator | Skyexchid",
       description:
-        "Play live casino games in India on Skyexchlogin — Andar Bahar, Teen Patti, Aviator, Roulette, Dragon Tiger and 1000+ titles. INR deposits, instant withdrawal, 24x7 support.",
+        "Play live casino games in India on Skyexchid — Andar Bahar, Teen Patti, Aviator, Roulette, Dragon Tiger and 1000+ titles. INR deposits, instant withdrawal, 24x7 support.",
       canonical: "https://skyexchid.live/casino",
       keywords:
-        "live casino india, andar bahar online, teen patti, aviator game, dragon tiger, online sports gaming platform, skyexchlogin online platform, mobile friendly sports betting platforms",
+        "live casino india, andar bahar online, teen patti, aviator game, dragon tiger, online sports gaming platform, skyexchid online platform, mobile friendly sports betting platforms",
       jsonLd: [
         {
           "@context": "https://schema.org",
           "@type": "WebPage",
-          name: "Live Casino on Skyexchlogin",
+          name: "Live Casino on Skyexchid",
           url: "https://skyexchid.live/casino",
-          description: "1000+ live casino games on the Skyexchlogin online platform — playable in INR.",
+          description: "1000+ live casino games on the Skyexchid online platform — playable in INR.",
         },
         {
           "@context": "https://schema.org",
@@ -77,7 +77,7 @@ const Casino = () => {
               1000+ <span className="text-gradient-gold">live casino games</span> in ₹
             </h1>
             <p className="text-muted-foreground text-base md:text-lg mb-7 max-w-2xl">
-              Play Andar Bahar, Teen Patti, Aviator, Roulette and 1000+ live dealer games on the Skyexchlogin online platform.
+              Play Andar Bahar, Teen Patti, Aviator, Roulette and 1000+ live dealer games on the Skyexchid online platform.
               All in INR, mobile friendly, with instant deposits via UPI and withdrawals in 5–10 minutes.
             </p>
             <WhatsAppButton size="lg" className="bg-gradient-gold text-primary-foreground shadow-gold h-12 px-8">
