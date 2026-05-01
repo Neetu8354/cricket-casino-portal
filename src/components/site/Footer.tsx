@@ -6,10 +6,10 @@ export const Footer = () => (
     <div className="container py-12 grid md:grid-cols-4 gap-8">
       <div>
         <div className="flex items-center gap-2 mb-4">
-          <img src={logo} alt="SkyExchange" className="h-10 w-10" width={40} height={40} />
+          <img src={logo} alt="Skyexchlogin - Sky Exchange Login online cricket and casino platform" className="h-10 w-10" width={40} height={40} />
           <span className="text-xl font-extrabold text-gradient-gold">SKYEXCHANGE</span>
         </div>
-        <p className="text-sm text-muted-foreground">India's most trusted online cricket & casino ID provider. Play in ₹, win in ₹.</p>
+        <p className="text-sm text-muted-foreground">Skyexchlogin (Sky Exchange Login) — India's most trusted online cricket & casino platform. Play live cricket betting in ₹, win big with fast withdrawal & 24x7 support.</p>
       </div>
       {[
         { t: "Sports", l: ["Cricket", "IPL 2026", "T20 World Cup", "ODI"] },
