@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Dice5, Spade, Plane, Crown } from "lucide-react";
-import { BlogHeader } from "@/components/site/BlogHeader";
+import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
 import { WhatsAppButton } from "@/components/site/WhatsAppButton";
@@ -61,7 +61,7 @@ const Casino = () => {
 
   return (
     <main className="min-h-screen bg-background">
-      <BlogHeader />
+      <Header />
 
       <section className="relative border-b border-border">
         <div className="container py-12 md:py-20">

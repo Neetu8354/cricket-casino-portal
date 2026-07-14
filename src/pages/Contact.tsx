@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { MessageCircle, Clock, ShieldCheck, Headphones } from "lucide-react";
-import { BlogHeader } from "@/components/site/BlogHeader";
+import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
 import { WhatsAppButton } from "@/components/site/WhatsAppButton";
@@ -63,7 +63,7 @@ const Contact = () => {
 
   return (
     <main className="min-h-screen bg-background">
-      <BlogHeader />
+      <Header />
 
       <section className="container py-12 md:py-20">
         <nav aria-label="Breadcrumb" className="text-xs text-muted-foreground mb-6">

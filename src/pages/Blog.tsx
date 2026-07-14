@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { BLOG_POSTS } from "@/data/blogPosts";
-import { BlogHeader } from "@/components/site/BlogHeader";
+import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
 import { applySeo } from "@/lib/seo";
@@ -35,7 +35,7 @@ const Blog = () => {
 
   return (
     <main className="min-h-screen bg-background">
-      <BlogHeader />
+      <Header />
 
       <section className="container py-12 md:py-16">
         <div className="max-w-3xl">
