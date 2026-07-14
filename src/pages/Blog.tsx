@@ -12,21 +12,21 @@ const Blog = () => {
       title: "Skyexchid Blog | Cricket Tips, Login Guides & Online Betting Insights",
       description:
         "Skyexchid blog — live cricket betting tips online, Sky Exchange Login guides step by step, and safe online sports betting platform reviews for India 2026.",
-      canonical: "https://skyexchid.live/blog",
+      canonical: "https://www.skyexchid.live/blog",
       keywords:
         "skyexchid blog, live cricket betting tips online, sky exchange login guide, safe online sports betting websites 2026, online sports gaming platform",
       jsonLd: {
         "@context": "https://schema.org",
         "@type": "Blog",
         name: "Skyexchid Blog",
-        url: "https://skyexchid.live/blog",
+        url: "https://www.skyexchid.live/blog",
         description:
           "Cricket betting tips, Sky Exchange Login guides and online sports gaming platform insights for Indian players.",
         blogPost: BLOG_POSTS.map((p) => ({
           "@type": "BlogPosting",
           headline: p.title,
           datePublished: p.date,
-          url: `https://skyexchid.live/blog/${p.slug}`,
+          url: `https://www.skyexchid.live/blog/${p.slug}`,
           description: p.description,
         })),
       },

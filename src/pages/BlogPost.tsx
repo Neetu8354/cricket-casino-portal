@@ -13,7 +13,7 @@ const BlogPost = () => {
 
   useEffect(() => {
     if (!post) return;
-    const url = `https://skyexchid.live/blog/${post.slug}`;
+    const url = `https://www.skyexchid.live/blog/${post.slug}`;
     applySeo({
       title: `${post.title} | Skyexchid`,
       description: post.description,
@@ -44,8 +44,8 @@ const BlogPost = () => {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchid.live/" },
-            { "@type": "ListItem", position: 2, name: "Blog", item: "https://skyexchid.live/blog" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.skyexchid.live/" },
+            { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.skyexchid.live/blog" },
             { "@type": "ListItem", position: 3, name: post.title, item: url },
           ],
         },

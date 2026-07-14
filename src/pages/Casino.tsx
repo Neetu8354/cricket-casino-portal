@@ -18,7 +18,7 @@ const Casino = () => {
       title: "Live Casino India 2026 | Andar Bahar, Teen Patti, Aviator | Skyexchid",
       description:
         "Play live casino games in India on Skyexchid — Andar Bahar, Teen Patti, Aviator, Roulette, Dragon Tiger and 1000+ titles. INR deposits, instant withdrawal, 24x7 support.",
-      canonical: "https://skyexchid.live/casino",
+      canonical: "https://www.skyexchid.live/casino",
       keywords:
         "live casino india, andar bahar online, teen patti, aviator game, dragon tiger, online sports gaming platform, skyexchid online platform, mobile friendly sports betting platforms",
       jsonLd: [
@@ -26,15 +26,15 @@ const Casino = () => {
           "@context": "https://schema.org",
           "@type": "WebPage",
           name: "Live Casino on Skyexchid",
-          url: "https://skyexchid.live/casino",
+          url: "https://www.skyexchid.live/casino",
           description: "1000+ live casino games on the Skyexchid online platform — playable in INR.",
         },
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchid.live/" },
-            { "@type": "ListItem", position: 2, name: "Casino", item: "https://skyexchid.live/casino" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.skyexchid.live/" },
+            { "@type": "ListItem", position: 2, name: "Casino", item: "https://www.skyexchid.live/casino" },
           ],
         },
       ],

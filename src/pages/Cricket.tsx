@@ -15,7 +15,7 @@ const Cricket = () => {
       title: "Live Cricket Betting India 2026 | IPL, T20, ODI Markets | Skyexchid",
       description:
         "Bet on live cricket online in India — IPL 2026, T20 World Cup, ODI & Test markets on Skyexchid. Lowest commission, fastest odds, instant ₹ withdrawals.",
-      canonical: "https://skyexchid.live/cricket",
+      canonical: "https://www.skyexchid.live/cricket",
       keywords:
         "live cricket betting tips online, ipl 2026, how to bet on live cricket matches online, sports betting platform online, online sports gaming platform, skyexchid online platform",
       jsonLd: [
@@ -23,15 +23,15 @@ const Cricket = () => {
           "@context": "https://schema.org",
           "@type": "WebPage",
           name: "Live Cricket Betting on Skyexchid",
-          url: "https://skyexchid.live/cricket",
+          url: "https://www.skyexchid.live/cricket",
           description: "Live cricket betting markets on Skyexchid — IPL, T20 World Cup, ODI, Test cricket.",
         },
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchid.live/" },
-            { "@type": "ListItem", position: 2, name: "Cricket", item: "https://skyexchid.live/cricket" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.skyexchid.live/" },
+            { "@type": "ListItem", position: 2, name: "Cricket", item: "https://www.skyexchid.live/cricket" },
           ],
         },
       ],
