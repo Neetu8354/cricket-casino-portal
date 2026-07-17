@@ -3,44 +3,44 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const FAQS = [
   {
-    q: "What is Skyexchid and how does Sky Exchange Login work?",
-    a: "Skyexchid (Sky Exchange Login) is India's trusted online sports gaming platform for live cricket betting and casino games. Just message us on WhatsApp, get your Skyexchid ID in under a minute, log in, deposit in ₹, and start playing on skyexchid.live.",
+    q: "What is SkyExchID?",
+    a: "SkyExchID is an online platform offering online cricket betting and a wide range of casino games, including live dealer games, Teen Patti, slots, Blackjack, Roulette, Baccarat, and more.",
   },
   {
-    q: "How to login Skyexchid with username — step by step guide?",
-    a: "Open skyexchid.live, click the Login button, enter the username and password we send you on WhatsApp, then tap Sign In. You'll land on the dashboard where you can pick any cricket match or casino game and place a bet instantly.",
+    q: "Which cricket tournaments can I bet on?",
+    a: "You can follow and participate in betting markets for IPL, ICC events, T20 leagues, ODI matches, Test cricket, Asia Cup, PSL, BBL, CPL, and other major tournaments.",
   },
   {
-    q: "How do I get my Skyexchid online cricket ID?",
-    a: "Click any WhatsApp button on skyexchid.live. Our 24x7 support team will share your Skyexchid login ID and password within 1 minute — no forms, no KYC delays.",
+    q: "What casino games are available on SkyExchID?",
+    a: "SkyExchID offers live Blackjack, Roulette, Baccarat, Poker, Dragon Tiger, Teen Patti, Andar Bahar, Aviator, slot games, and many other popular casino titles.",
   },
   {
-    q: "How to place a bet on Skyexchid online site?",
-    a: "After Skyexchid login, choose a live cricket match (IPL, T20, ODI) or a casino table, select your market, enter your stake in ₹, and confirm. Live odds update in real time and winnings are credited instantly.",
+    q: "Is SkyExchID suitable for beginners?",
+    a: "Yes. The platform is designed with an intuitive interface, making it easy for new players to explore online cricket betting and casino games.",
   },
   {
-    q: "Is Skyexchid a safe online sports betting website in 2026?",
-    a: "Yes. Skyexchid uses bank-grade SSL encryption, secure UPI / PhonePe / GPay / Paytm / Net Banking deposits, and verified WhatsApp-only support — making it one of the safest online sports betting platforms for Indian users in 2026.",
+    q: "Can I access SkyExchID on my mobile phone?",
+    a: "Yes. SkyExchID is fully optimized for Android smartphones, iPhones, tablets, laptops, and desktop devices.",
   },
   {
-    q: "Which cricket leagues can I bet on at Skyexchid?",
-    a: "Skyexchid offers live cricket betting on IPL 2026, T20 World Cup, ODI series, Test cricket, BBL, PSL, CPL and many more — with live odds, session markets, and instant result updates.",
+    q: "How does SkyExchID protect user information?",
+    a: "We use secure technologies, including SSL encryption, to help safeguard user data and provide a safe gaming environment.",
   },
   {
-    q: "What casino games are available on the Skyexchid online platform?",
-    a: "1000+ titles including Live Roulette, Andar Bahar, Teen Patti, Dragon Tiger, Aviator, Lucky 7, Mega Slots 777 and live dealer poker — all playable in ₹ from your Skyexchid account.",
+    q: "What makes SkyExchID different from other platforms?",
+    a: "SkyExchID combines online cricket betting, live casino games, Indian card games, and modern casino entertainment on one secure, easy-to-use platform backed by responsive customer support.",
   },
   {
-    q: "How fast are withdrawals on Skyexchid?",
-    a: "Most withdrawals are processed within 5–10 minutes directly to your Indian bank account via UPI or Net Banking. No hidden fees, no waiting periods.",
+    q: "Does SkyExchID support responsible gaming?",
+    a: "Yes. We encourage players to play responsibly, set personal limits, and enjoy gaming as a form of entertainment.",
   },
   {
-    q: "Is Skyexchid a mobile friendly sports betting platform?",
-    a: "Yes. Skyexchid.live is fully responsive — play live cricket and casino games on any Android phone, iPhone, tablet, or desktop browser. No app download required.",
+    q: "What games are most popular on SkyExchID?",
+    a: "Some of the most popular games include Teen Patti, Aviator, Roulette, Blackjack, Baccarat, Poker, Dragon Tiger, Andar Bahar, and live cricket betting markets.",
   },
   {
-    q: "Does Skyexchid offer 24x7 support?",
-    a: "Yes — our WhatsApp support team is online 24×7 to help with login issues, deposits, withdrawals, or any question about the Skyexchid online platform.",
+    q: "Why should I choose SkyExchID?",
+    a: "SkyExchID offers a secure platform, a wide variety of games, a mobile-friendly experience, live cricket betting, responsive support, and a commitment to delivering a smooth and enjoyable gaming experience.",
   },
 ];
 
@@ -74,10 +74,10 @@ export const FAQ = () => {
         <div className="text-center mb-10">
           <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-2">FAQ</div>
           <h2 className="text-3xl md:text-4xl font-extrabold">
-            Skyexchid — Frequently Asked <span className="text-gradient-gold">Questions</span>
+            Frequently Asked <span className="text-gradient-gold">Questions</span>
           </h2>
           <p className="text-sm text-muted-foreground mt-3">
-            Everything you need to know about Sky Exchange Login, online cricket betting & casino on skyexchid.live
+            Everything you need to know about SkyExchID online cricket betting & casino games
           </p>
         </div>
         <Accordion type="single" collapsible className="space-y-3">

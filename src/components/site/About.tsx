@@ -2,35 +2,35 @@ import { ShieldCheck } from "lucide-react";
 
 export const About = () => (
   <section id="about" className="py-16">
-    <div className="container grid lg:grid-cols-2 gap-10 items-center">
-      <div>
-        <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-2">About SkyExchange</div>
-        <h2 className="text-3xl md:text-4xl font-extrabold mb-5">
-          India's leading <span className="text-gradient-gold">online cricket & gaming</span> platform
+    <div className="container">
+      <div className="text-center mb-12">
+        <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-2">Welcome to SkyExchID</div>
+        <h2 className="text-3xl md:text-4xl font-extrabold mb-6">
+          India's Trusted Platform for <span className="text-gradient-gold">Online Cricket Betting & Live Casino Games</span>
         </h2>
-        <p className="text-muted-foreground mb-4">
-          Launched in 2017, SkyExchange has become a leading online sports platform — perfect for both beginners and experienced players. Use your online betting ID to navigate easily, play fast, and get 24/7 support for a smooth gaming experience.
+        <p className="text-muted-foreground max-w-3xl mx-auto mb-6">
+          SkyExchID is your one-stop destination for online cricket betting and premium online casino games in India. Whether you're following the excitement of the IPL, an ICC tournament, or looking to enjoy live dealer casino games, our platform delivers a secure, fast, and seamless gaming experience.
         </p>
-        <p className="text-muted-foreground">
-          Enjoy cricket, fantasy sports, card games, and many more in a secure environment. Instant account access, SkyExchange login, and WhatsApp-based support make your gaming experience fast, safe, and enjoyable — all in ₹.
+        <p className="text-muted-foreground max-w-3xl mx-auto">
+          Since 2017, SkyExchID has built a reputation for reliability, offering players access to competitive cricket betting markets and an extensive collection of casino games. From Teen Patti, Andar Bahar, Aviator, and Poker to Blackjack, Roulette, Baccarat, and hundreds of slot titles, there's something for every type of player.
+        </p>
+        <p className="text-muted-foreground max-w-3xl mx-auto mt-4">
+          Designed for both beginners and experienced users, SkyExchID combines an intuitive interface with responsive support and a mobile-friendly experience, making it easy to enjoy your favorite games anytime, anywhere.
         </p>
       </div>
-      <div className="relative rounded-2xl overflow-hidden border border-border bg-gradient-card p-8 shadow-gold">
-        <div className="grid grid-cols-2 gap-6">
+      <div className="relative rounded-2xl overflow-hidden border border-border bg-gradient-card p-8 shadow-gold max-w-4xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
-            { v: "2017", l: "Launched" },
+            { v: "2017", l: "Established" },
             { v: "10L+", l: "Players" },
             { v: "1000+", l: "Games" },
-            { v: "₹500Cr+", l: "Paid out" },
+            { v: "24/7", l: "Support" },
           ].map((s) => (
             <div key={s.l} className="text-center p-4 rounded-xl bg-background/50 border border-border">
               <div className="text-3xl font-extrabold text-gradient-gold">{s.v}</div>
               <div className="text-xs text-muted-foreground mt-1">{s.l}</div>
             </div>
           ))}
-        </div>
-        <div className="flex items-center gap-2 mt-6 text-sm text-primary">
-          <ShieldCheck className="h-5 w-5" /> Trusted by lakhs of Indian players since 2017
         </div>
       </div>
     </div>

@@ -25,13 +25,8 @@ export const Hero = () => {
         <div className="grid md:block grid-cols-1 gap-6">
           {/* Text content */}
           <div className="max-w-2xl order-1">
-            <span className="inline-block px-3 py-1 rounded-full text-[11px] md:text-xs font-semibold bg-primary/15 text-primary border border-primary/30 mb-4 md:mb-5">
-              🏏 INDIA'S #1 CRICKET ID PROVIDER
-            </span>
             <h1 className="text-[2.5rem] leading-[1.05] md:text-6xl lg:text-7xl font-extrabold mb-4 md:mb-6">
-              <span className="text-foreground">Play Cricket.</span>
-              <br />
-              <span className="text-gradient-gold">Win Big in ₹.</span>
+              SkyExchID – India's Trusted Platform for <span className="text-gradient-gold">Online Cricket Betting & Live Casino Games</span>
             </h1>
 
             {/* Mobile: image between heading and paragraph */}
@@ -48,7 +43,7 @@ export const Hero = () => {
             </div>
 
             <p className="text-sm md:text-lg text-foreground/85 mb-6 md:mb-8 max-w-xl">
-              Get your trusted online cricket & casino ID instantly on WhatsApp. Bet on IPL, T20, ODI, Andar Bahar, Teen Patti and 1000+ live casino games — all in INR.
+              SkyExchID is your one-stop destination for online cricket betting and premium online casino games in India. Whether you're following the excitement of the IPL, an ICC tournament, or looking to enjoy live dealer casino games, our platform delivers a secure, fast, and seamless gaming experience.
             </p>
 
             <div className="flex flex-col sm:flex-row flex-wrap gap-3 md:gap-4 mb-8 md:mb-10">
