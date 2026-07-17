@@ -4,7 +4,6 @@ import { Dice5, Spade, Plane, Crown } from "lucide-react";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
-import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 import { applySeo } from "@/lib/seo";
 import casino from "@/assets/sport-casino.jpg";
 import andar from "@/assets/sport-andarbahar.jpg";
@@ -80,9 +79,6 @@ const Casino = () => {
               Play Andar Bahar, Teen Patti, Aviator, Roulette and 1000+ live dealer games on the Skyexchid online platform.
               All in INR, mobile friendly, with instant deposits via UPI and withdrawals in 5–10 minutes.
             </p>
-            <WhatsAppButton size="lg" className="bg-gradient-gold text-primary-foreground shadow-gold h-12 px-8">
-              Get Your Casino ID
-            </WhatsAppButton>
           </div>
         </div>
       </section>
@@ -125,19 +121,6 @@ const Casino = () => {
         </div>
       </section>
 
-      <section className="container py-14">
-        <div className="p-6 md:p-10 rounded-2xl border border-primary/30 bg-gradient-card text-center shadow-gold">
-          <h2 className="text-2xl md:text-3xl font-extrabold mb-3">
-            Play live casino in <span className="text-gradient-gold">₹ today</span>
-          </h2>
-          <p className="text-sm md:text-base text-muted-foreground mb-6">
-            Instant ID on WhatsApp. UPI deposits. 5-minute withdrawals. 24x7 live dealers.
-          </p>
-          <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold">
-            Get Your Casino ID Now
-          </WhatsAppButton>
-        </div>
-      </section>
 
       <Footer />
       <FloatingWhatsApp />

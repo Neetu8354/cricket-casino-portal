@@ -4,15 +4,12 @@ import andar from "@/assets/sport-andarbahar.jpg";
 import teen from "@/assets/sport-teenpatti.jpg";
 import aviator from "@/assets/sport-aviator.jpg";
 import slots from "@/assets/sport-slots.jpg";
-import { WhatsAppButton } from "./WhatsAppButton";
 
 type Game = { img: string; title: string; subtitle: string; tag?: string };
 
-const Card = ({ g }: { g: Game }) => (
+const Card = ({ g, link }: { g: Game; link: string }) => (
   <a
-    href="https://wa.link/reddyanna_"
-    target="_blank"
-    rel="noopener noreferrer"
+    href={link}
     className="group relative rounded-2xl overflow-hidden border border-border bg-gradient-card shadow-lg hover:shadow-gold hover:border-primary/60 transition-all duration-300 hover:-translate-y-1"
   >
     <div className="aspect-square overflow-hidden">
@@ -33,20 +30,15 @@ const Card = ({ g }: { g: Game }) => (
 const Section = ({ id, eyebrow, title, items }: { id: string; eyebrow: string; title: string; items: Game[] }) => (
   <section id={id} className="py-12 md:py-16">
     <div className="container">
-      <div className="flex items-end justify-between mb-8">
-        <div>
-          <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-2">{eyebrow}</div>
-          <h2 className="text-3xl md:text-4xl font-extrabold">
-            <span className="text-gradient-gold">{title}</span>
-          </h2>
-        </div>
-        <WhatsAppButton variant="outline" className="hidden sm:inline-flex border-primary/60 text-primary hover:bg-primary/10">
-          Play Now
-        </WhatsAppButton>
+      <div className="mb-8">
+        <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-2">{eyebrow}</div>
+        <h2 className="text-3xl md:text-4xl font-extrabold">
+          <span className="text-gradient-gold">{title}</span>
+        </h2>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-        {items.map((g) => <Card key={g.title} g={g} />)}
+        {items.map((g) => <Card key={g.title} g={g} link={id === 'cricket' ? '/cricket' : id === 'casino' ? '/casino' : '/casino'} />)}
       </div>
     </div>
   </section>

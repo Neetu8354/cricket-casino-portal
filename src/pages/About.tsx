@@ -4,7 +4,6 @@ import { ShieldCheck, Trophy, Users, Wallet, Headphones, Zap } from "lucide-reac
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
-import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 import { applySeo } from "@/lib/seo";
 
 const About = () => {
@@ -110,17 +109,6 @@ const About = () => {
           </div>
         </div>
 
-        <div className="p-6 md:p-10 rounded-2xl border border-primary/30 bg-gradient-card text-center shadow-gold">
-          <h2 className="text-2xl md:text-3xl font-extrabold mb-3">
-            Ready to join <span className="text-gradient-gold">10 lakh+ Indian players?</span>
-          </h2>
-          <p className="text-sm md:text-base text-muted-foreground mb-6">
-            Get your free Skyexchid ID on WhatsApp in under 60 seconds.
-          </p>
-          <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold">
-            Get Your Online ID
-          </WhatsAppButton>
-        </div>
       </section>
 
       <Footer />

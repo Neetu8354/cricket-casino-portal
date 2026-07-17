@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
-import { WhatsAppButton } from "./WhatsAppButton";
 
 export const BlogHeader = () => (
   <header className="sticky top-0 z-50 backdrop-blur-md bg-background/85 border-b border-border">
@@ -25,9 +24,6 @@ export const BlogHeader = () => (
           Blog
         </Link>
       </nav>
-      <WhatsAppButton className="bg-gradient-gold text-primary-foreground hover:opacity-90 shadow-gold">
-        Get Your Online ID
-      </WhatsAppButton>
     </div>
   </header>
 );

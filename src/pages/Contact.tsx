@@ -4,7 +4,6 @@ import { MessageCircle, Clock, ShieldCheck, Headphones } from "lucide-react";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
-import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 import { applySeo } from "@/lib/seo";
 import { WHATSAPP_URL } from "@/lib/site";
 
@@ -98,9 +97,6 @@ const Contact = () => {
               <li>✓ Hindi & English support</li>
               <li>✓ Secure — no email or password required to chat</li>
             </ul>
-            <WhatsAppButton size="lg" className="bg-gradient-gold text-primary-foreground shadow-gold w-full h-12">
-              Open WhatsApp Chat
-            </WhatsAppButton>
           </div>
 
           <div>

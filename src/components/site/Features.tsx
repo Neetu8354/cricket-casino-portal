@@ -1,5 +1,4 @@
 import { Wallet, MessageCircle, Trophy, Lock, Clock, Banknote } from "lucide-react";
-import { WhatsAppButton } from "./WhatsAppButton";
 
 const FEATURES = [
   { icon: Banknote, title: "INR Deposits", desc: "UPI, PhonePe, GPay, Paytm, Net Banking — all in ₹." },
@@ -29,11 +28,6 @@ export const Features = () => (
             <p className="text-sm text-muted-foreground">{f.desc}</p>
           </div>
         ))}
-      </div>
-      <div className="text-center mt-10">
-        <WhatsAppButton size="lg" className="bg-gradient-gold text-primary-foreground shadow-gold">
-          Open WhatsApp Chatbot
-        </WhatsAppButton>
       </div>
     </div>
   </section>

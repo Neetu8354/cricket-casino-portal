@@ -1,4 +1,3 @@
-import { WhatsAppButton } from "./WhatsAppButton";
 
 const STEPS = [
   { n: "01", t: "Message on WhatsApp", d: "Tap the WhatsApp button — chat opens instantly." },
@@ -24,11 +23,6 @@ export const Steps = () => (
             <p className="text-sm text-muted-foreground">{s.d}</p>
           </div>
         ))}
-      </div>
-      <div className="text-center mt-10">
-        <WhatsAppButton size="lg" className="bg-gradient-gold text-primary-foreground shadow-gold">
-          Start Now on WhatsApp
-        </WhatsAppButton>
       </div>
     </div>
   </section>

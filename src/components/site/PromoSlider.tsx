@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import promo1 from "@/assets/promo-1.jpg";
 import promo2 from "@/assets/promo-2.jpg";
 import promo3 from "@/assets/promo-3.jpg";
-import { WhatsAppButton } from "./WhatsAppButton";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const SLIDES = [
@@ -33,9 +32,6 @@ export const PromoSlider = () => {
                   <div className="container">
                     <div className="max-w-md">
                       <h3 className="text-2xl md:text-4xl font-extrabold mb-4 text-gradient-gold">{s.title}</h3>
-                      <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold">
-                        {s.cta}
-                      </WhatsAppButton>
                     </div>
                   </div>
                 </div>

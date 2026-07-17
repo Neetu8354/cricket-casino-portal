@@ -4,7 +4,6 @@ import { getPostBySlug, BLOG_POSTS } from "@/data/blogPosts";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
-import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 import { applySeo } from "@/lib/seo";
 
 const BlogPost = () => {
@@ -144,9 +143,6 @@ const BlogPost = () => {
           <p className="text-sm text-muted-foreground mb-5">
             Get your free Skyexchid ID on WhatsApp in under 60 seconds. Play live cricket & casino in ₹.
           </p>
-          <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold">
-            Get Your ID Now
-          </WhatsAppButton>
         </div>
 
         {related.length > 0 && (
