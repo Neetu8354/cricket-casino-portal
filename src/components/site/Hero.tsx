@@ -55,9 +55,6 @@ export const Hero = () => {
               <WhatsAppButton size="lg" className="bg-gradient-gold text-primary-foreground hover:opacity-90 shadow-gold text-base h-12 px-8 w-full sm:w-auto">
                 Get Your ID Now
               </WhatsAppButton>
-              <WhatsAppButton size="lg" variant="outline" className="border-primary/60 text-primary hover:bg-primary/10 text-base h-12 px-8 w-full sm:w-auto">
-                Chat on WhatsApp
-              </WhatsAppButton>
             </div>
 
             <div className="grid grid-cols-3 gap-2 md:gap-6 max-w-lg">

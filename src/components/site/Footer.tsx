@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
-import { WHATSAPP_URL } from "@/lib/site";
 import { BLOG_POSTS } from "@/data/blogPosts";
 
 export const Footer = () => (
@@ -13,21 +12,26 @@ export const Footer = () => (
         </div>
         <p className="text-sm text-muted-foreground">Skyexchid (Sky Exchange Login) — India's most trusted online cricket & casino platform. Play live cricket betting in ₹, win big with fast withdrawal & 24x7 support.</p>
       </div>
-      {[
-        { t: "Sports", l: ["Cricket", "IPL 2026", "T20 World Cup", "ODI"] },
-        { t: "Casino", l: ["Live Roulette", "Andar Bahar", "Teen Patti", "Aviator"] },
-      ].map((s) => (
-        <div key={s.t}>
-          <h4 className="font-bold mb-3">{s.t}</h4>
-          <ul className="space-y-2 text-sm text-muted-foreground">
-            {s.l.map((x) => (
-              <li key={x}>
-                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-primary">{x}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
+      <div>
+        <h4 className="font-bold mb-3">Quick Links</h4>
+        <ul className="space-y-2 text-sm text-muted-foreground">
+          <li><Link to="/cricket" className="hover:text-primary">Cricket Betting</Link></li>
+          <li><Link to="/casino" className="hover:text-primary">Live Casino</Link></li>
+          <li><Link to="/blog" className="hover:text-primary">Blog</Link></li>
+          <li><Link to="/about" className="hover:text-primary">About Us</Link></li>
+          <li><Link to="/contact" className="hover:text-primary">Contact</Link></li>
+        </ul>
+      </div>
+      <div>
+        <h4 className="font-bold mb-3">Popular Games</h4>
+        <ul className="space-y-2 text-sm text-muted-foreground">
+          <li><Link to="/cricket" className="hover:text-primary">IPL 2026</Link></li>
+          <li><Link to="/cricket" className="hover:text-primary">T20 World Cup</Link></li>
+          <li><Link to="/casino" className="hover:text-primary">Andar Bahar</Link></li>
+          <li><Link to="/casino" className="hover:text-primary">Teen Patti</Link></li>
+          <li><Link to="/casino" className="hover:text-primary">Aviator</Link></li>
+        </ul>
+      </div>
       <div>
         <h4 className="font-bold mb-3">Skyexchid Blog</h4>
         <ul className="space-y-2 text-sm text-muted-foreground">

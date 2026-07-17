@@ -14,7 +14,6 @@ import { Stats } from "@/components/site/Stats";
 import { Testimonials } from "@/components/site/Testimonials";
 import { FAQ } from "@/components/site/FAQ";
 import { Responsible } from "@/components/site/Responsible";
-import { CTA } from "@/components/site/CTA";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
 import { useEffect } from "react";
@@ -60,7 +59,6 @@ const Index = () => {
       <Testimonials />
       <FAQ />
       <Responsible />
-      <CTA />
       <Footer />
       <FloatingWhatsApp />
     </main>
