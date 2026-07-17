@@ -27,13 +27,13 @@ const BlogPost = () => {
           description: post.description,
           datePublished: post.date,
           dateModified: post.date,
-          author: { "@type": "Organization", name: "Skyexchid" },
+          author: { "@type": "Organization", name: "SkyExchID" },
           publisher: {
             "@type": "Organization",
-            name: "Skyexchid",
+            name: "SkyExchID",
             logo: {
               "@type": "ImageObject",
-              url: "https://skyexchid.live/favicon.png",
+              url: "https://www.skyexchid.live/favicon.png",
             },
           },
           mainEntityOfPage: { "@type": "WebPage", "@id": url },

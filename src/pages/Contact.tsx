@@ -27,19 +27,46 @@ const Contact = () => {
         {
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "Skyexchid",
-          url: "https://www.skyexchid.live/",
-          logo: "https://skyexchid.live/favicon.png",
-          contactPoint: [
-            {
-              "@type": "ContactPoint",
-              contactType: "customer support",
-              availableLanguage: ["English", "Hindi"],
-              areaServed: "IN",
-              hoursAvailable: "Mo-Su 00:00-23:59",
-              url: WHATSAPP_URL,
-            },
+          "@id": "https://www.skyexchid.live/#organization",
+          "name": "SkyExchID",
+          "alternateName": [
+            "Sky Exch ID",
+            "Sky Exchange ID",
+            "SkyExch",
+            "Sky Exchange"
           ],
+          "url": "https://www.skyexchid.live/",
+          "image": "https://www.skyexchid.live/favicon.png",
+          "description": "SkyExchID is a trusted online cricket exchange and casino platform in India offering cricket betting, sports betting, live casino games, Teen Patti, Aviator, and secure online gaming with instant ID, fast withdrawals, and 24/7 customer support.",
+          "sameAs": [
+            "https://wa.link/reddyanna_"
+          ],
+          "knowsAbout": [
+            "Cricket Betting",
+            "Sports Betting",
+            "Live Casino",
+            "Teen Patti",
+            "Aviator Game",
+            "Online Gaming",
+            "Cricket Exchange"
+          ],
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.skyexchid.live/favicon.png"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Customer Support",
+            "url": "https://wa.link/reddyanna_",
+            "availableLanguage": [
+              "English",
+              "Hindi"
+            ]
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          }
         },
         {
           "@context": "https://schema.org",
