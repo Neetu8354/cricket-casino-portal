@@ -159,6 +159,33 @@ const Contact = () => {
             </div>
           </div>
         </div>
+
+        <section className="container py-14">
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-8">
+            <span className="text-gradient-gold">Frequently Asked Questions</span>
+          </h2>
+          <div className="space-y-4 max-w-3xl">
+            {[
+              { q: "How can I contact SkyExchID support?", a: "You can reach the SkyExchID support team through the contact options provided on this page. Our team is available 24/7 to assist with account-related questions, technical support, and general inquiries." },
+              { q: "What issues can the support team help me with?", a: "Our customer support team can assist with: New account registration, SkyExchID login assistance, Online cricket betting queries, Casino game information, Deposit and withdrawal guidance, Technical issues, General account support." },
+              { q: "How quickly will I receive a response?", a: "We aim to respond to all inquiries as quickly as possible. Most support requests are handled promptly, especially those received through our primary support channels. Providing clear details helps speed up the process." },
+              { q: "Can I create a SkyExchID account through customer support?", a: "Yes. If you don't already have an account, our support team can guide you through the registration process and help you get started." },
+              { q: "Do I need an account before contacting support?", a: "No. You can contact us whether you're a new visitor or an existing user. Our team is happy to answer your questions and provide guidance." },
+              { q: "Can I get help with online cricket betting?", a: "Yes. If you have questions about online cricket betting, available betting markets, or how the platform works, our support team is available to help." },
+              { q: "Can customer support help with casino games?", a: "Absolutely. We can assist with questions about live casino games, Teen Patti, Blackjack, Roulette, Baccarat, Aviator, slot games, and other games available on the platform." },
+              { q: "What information should I include when contacting support?", a: "For faster assistance, include: Your registered account details (if applicable), A brief description of your issue, Relevant screenshots (if available), Any error messages you received. Providing complete information helps resolve your request more efficiently." },
+              { q: "Is my personal information secure when I contact SkyExchID?", a: "Yes. We take user privacy seriously and handle inquiries with appropriate security measures to help protect your personal information." },
+              { q: "Is customer support available 24/7?", a: "Yes. Our customer support team is available 24 hours a day, 7 days a week, to help with account, betting, casino, and technical questions." },
+              { q: "Can I contact SkyExchID for partnership or business inquiries?", a: "Yes. If you have partnership opportunities, business proposals, or media inquiries, you can contact us through this page, and the appropriate team will respond." },
+              { q: "What should I do if I don't receive a reply?", a: "If you haven't received a response within a reasonable time, please resend your message with complete details or use another available contact method listed on this page. Multiple contact options and FAQs are considered best practice for effective contact pages." },
+            ].map((item) => (
+              <div key={item.q} className="p-5 rounded-xl bg-gradient-card border border-border">
+                <h3 className="font-bold text-base mb-2 text-primary">{item.q}</h3>
+                <p className="text-sm text-muted-foreground whitespace-pre-line">{item.a}</p>
+              </div>
+            ))}
+          </div>
+        </section>
       </section>
 
       <Footer />
